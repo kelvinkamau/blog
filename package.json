@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bchiang7/writing.git"
+    "url": "git+https://github.com/kelvinkamau/writing.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bchiang7/writing/issues"
+    "url": "https://github.com/kelvinkamau/writing/issues"
   },
-  "homepage": "https://github.com/bchiang7/writing#readme",
+  "homepage": "https://github.com/kelvinkamau/writing#readme",
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.23.6",
