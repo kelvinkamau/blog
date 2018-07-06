@@ -21,8 +21,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   background: #f4f8fb;
-  font-family: system, -apple-system, BlinkMacSystemFont, Roboto,
- 'Helvetica Neue', 'Segoe UI', Arial, sans-serif; }
+  font-family: system, -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif; }
 
 a {
   display: inline-block;
@@ -82,7 +81,7 @@ img {
       padding: 20px; }
       .container .card .content a {
         display: block;
-        color: #242433; }
+        color: black; }
     .container .card__title span {
       display: block;
       margin-bottom: 7px;
@@ -97,7 +96,7 @@ img {
       font-size: 20px; }
     .container .card__description p {
       font-family: 'Georgia', serif;
-      color: #242433;
+      color: #15171a;
       line-height: 1.7;
       margin-bottom: 20px;
       font-size: 15px;
