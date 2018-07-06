@@ -1,0 +1,25 @@
+{
+  "name": "writing",
+  "version": "1.0.0",
+  "description": "writing portfolio for ENGW 3302",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bchiang7/writing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bchiang7/writing/issues"
+  },
+  "homepage": "https://github.com/bchiang7/writing#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
