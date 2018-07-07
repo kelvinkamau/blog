@@ -144,8 +144,6 @@ header {
     background: url('../images/one.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: #191e27;*/
-    /*todo background-image */
     text-align: center;
     height: 40vh;
     min-height: 370px;
