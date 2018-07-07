@@ -143,6 +143,7 @@ header {
     padding: 5% 10%;
     background: url('../images/one.svg');
     background-repeat: no-repeat;
+    background-position: fixed;
     background-size: cover;
     text-align: center;
     height: 40vh;
@@ -158,6 +159,9 @@ header h1 {
 header h2 {
     color: #ddd;
     font-weight: 400;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #191e27;
 }
 
 footer {
@@ -205,3 +209,4 @@ footer p a {
         background: #E8E8E8;
     }
 }
+
