@@ -141,7 +141,9 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 5% 10%;
-    background: #2980b9 url('../images/one.png') repeat 0 0;
+    background: url('../images/one.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     /* background-color: #191e27;*/
     /*todo background-image */
     text-align: center;
@@ -197,9 +199,11 @@ footer p a {
         font-size: 15px;
         letter-spacing: 6px;
         text-transform: uppercase;
+        color: #191e27;
         font-weight: 100;
     }
-    body{
+
+    body {
         background: #E8E8E8;
     }
 }
