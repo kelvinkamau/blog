@@ -141,7 +141,7 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 5% 10%;
-    background: url('../images/one.png');
+    background: url('../images/one.svg');
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: #191e27;*/
