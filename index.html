@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kelvin Kamau | Blog</title>
-    <link rel="icon" type="image/png" href="https://www.kelvinkamau.app/img/icon.png" hreflang="en-us">
+    <link rel="icon" type="image/png" href="favicon.png" hreflang="en-us">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -130,8 +132,12 @@
                         <h2>What to do if you spill fluids on your computer.</h2>
                     </div>
                     <div class="card__description">
-                        <p><mark style="background: #FF0070">Don't panic! Useful measures that might come in handy as you live every day. As usual with
-                            all electronics, start by shutting it down then turning off the power supply.</mark></p>
+                        <p>
+                            <mark style="background: #FF0070">Don't panic! Useful measures that might come in handy as
+                                you live every day. As usual with
+                                all electronics, start by shutting it down then turning off the power supply.
+                            </mark>
+                        </p>
                     </div>
                 </a>
                 <div class="card__footer">
@@ -192,7 +198,7 @@
     </div>
 </section>
 <div class="alpha">
-<button>Loading More &nbsp;<i class="fas fa-spinner fa-pulse"></i></button>
+    <button>Loading More &nbsp;<i class="fas fa-spinner fa-pulse"></i></button>
 </div>
 <footer>
     <p class="vanish">
@@ -217,10 +223,21 @@
     I'd love to chat sometime,
     whether it's about code, community, or anything in between.
 
-    >> Wachira Kelvin Kamau
+    >> Kelvin Kamau
     >> Software Engineer // Nairobi, Kenya
 
     ********************************************** -->
+<script>
 
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/blog/sw.js')
+                    .then(function () {
+                        console.log("Service Worker Registered");
+                    });
+            }
+        );
+    }
+</script>
 </body>
 </html>

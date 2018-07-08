@@ -2,7 +2,6 @@ const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
 
-// Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
   browserSync.init({
     server: './'
