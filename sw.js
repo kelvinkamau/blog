@@ -10,7 +10,6 @@ self.addEventListener('fetch', function (event) {
                 }
                 return networkResponse;
             }, function (e) {
-                // rejected promise - just ignore it, we're offline
                 console.log("Error in fetch()", e);
 
                 e.waitUntil(
@@ -22,19 +21,19 @@ self.addEventListener('fetch', function (event) {
                             '/?homescreen=1',
                             'blog/css/app.css',
                             'blog/images/one.svg',
+                            'blog/images/two.svg',
                             'blog/favicon.png',
                             'blog/manifest.json',
                             'blog/package.json',
                             'blog/package-lock.json',
                             'blog/sw.js',
+                            'https://www.google-analytics.com/analytics.js',
                             'https://fonts.googleapis.com/css?family=Source+Sans+Pro',
                             'https://use.fontawesome.com/releases/v5.1.0/css/all.css',
                         ]);
                     })
                 );
             });
-
-            // respond from the cache, or the network
             return response || fetchPromise;
         });
     }));
