@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angular vs React</title>
+    <link rel="icon" type="image/png" href="../favicon.png" hreflang="en-us">
+    <link rel="stylesheet" href="../css/one.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-89234800-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+<header>
+    <h1>Kelvin Kamau</h1>
+    <h2>programming</h2>
+</header>
+
+<section>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <div class="card__title">
+                    <span>FRAMEWORKS</span>
+                    <h1>Angular vs React</h1>
+                </div>
+                <div class="card__description">
+                    <p>Every project is completely different and has a unique set of
+                        needs hence its great to understand the strengths and opportunities that both have. The aim
+                        of this article is to help developers decide for themselves on which one fits their need
+                        🤔</p>
+
+                    <p><mark>First Angular is a framework while React is a library.</mark> However, we'll compare the ecosystem
+                        not the framework and library themselves.</p>
+
+                    <h2>1. Learning Curve</h2>
+                    <hr>
+
+                    <h3>Angular</h3>
+
+                    <ul style="list-style-type:disc">
+                        <li>Big learning curve with lots of fairly new complex vocabulary like <mark class="red">dependency injection,
+                            directives, decorators and pipes.</mark>
+                        </li>
+                        <li><mark class="red">Learning Typescript</mark>,a JS superscript, is <mark class="red">recommended.</mark></li>
+                        <li>There are a few ways to do something making it easier to implement things since it's fairly
+                            more opinionated but <mark class="red">less flexible</mark>.
+                        </li>
+                    </ul>
+
+
+                     <h3 class="pimp">React</h3>
+
+                    <ul style="list-style-type:disc">
+                        <li><mark class="blue">Less to learn</mark> since it's only the core library.</li>
+                        <li><mark class="blue">Requires extra packages and modules</mark> for functions like routing, validation, HTTP requests
+                            which adds to the learning curve.
+                        </li>
+                        <li>React <mark class="blue">has many ways of doing the same thing</mark> for example handling state and property, making
+                            HTTP requests can be handled differently.<mark class="blue">Advise : Work with best practices.</mark>
+                        </li>
+                        <li>Developer needs to learn about <mark class="blue">Redux</mark>, an application level state manager, which is hard to
+                            set up and learn.
+                        </li>
+                    </ul>
+
+                    <h2>2. Performance</h2>
+                    <hr>
+                    <h3>Angular</h3>
+
+                    <ul style="list-style-type:disc">
+                        <li>Its a <mark class="red">full front to back framework</mark> which includes routing, form tools, HTTP Library,
+                            Reactive extension which bloat the framework making it <mark class="red">slower</mark>.
+                        </li>
+                    </ul>
+
+                     <h3 class="pimp">React</h3>
+
+                    <ul style="list-style-type:disc">
+                        <li> It's <mark class="blue">much smaller</mark> but adding packages makes it slower however it's much <mark class="blue">faster</mark> in general
+                            compared to Angular.
+                        </li>
+                    </ul>
+
+                    <h2>3. Features</h2>
+                    <hr>
+
+                    <p>These two have a lot of similar features like, <mark>both are component-based and offer dynamic
+                        markup</mark>. However here are some different features of each.</p>
+
+                    <h3>Angular</h3>
+
+                    <ul style="list-style-type:disc">
+                        <li>It's a <mark class="red">battery included framework</mark> with a component router, RxJS for things like observables,
+                            HTTP client & a form module for validation.
+                        </li>
+                        <li>It <mark class="red">offers two way binding</mark> i.e binding data from model to view & vice versa.</li>
+                        <li>Has support for <mark class="red">Model View Controller.</mark></li>
+                        <li><mark class="red">Easy testing</mark> utilities.</li>
+                    </ul>
+
+                     <h3 class="pimp">React</h3>
+
+                    <ul style="list-style-type:disc">
+                        <li><mark class="blue">Uses virtual DOM which is powerful</mark></li>
+                        <li><mark class="blue">Uses JSX making things easier</mark></li>
+                        <li><mark class="blue">Easy to pass data within components state and property</mark></li>
+                        <li><mark class="blue">External packages makes the library more powerful</mark> like React Router, Fetch (a HTTP client) &
+                            Enzyme(for testing)
+                        </li>
+                    </ul>
+
+                    <h2>4. Tooling</h2>
+                    <hr>
+                    <h3>Angular</h3>
+
+                    <ul style="list-style-type: disc">
+                        <li><mark class="red">Angular CLI is more powerful</mark> in generating components & services.</li>
+                        <li><mark class="red">Uses WebPack.</mark></li>
+                        <li><mark class="red">Dev Server to auto-reload.</mark></li>
+                        <li><mark class="red">CLI comes with Compile and Build tools.</mark></li>
+                        <li><mark class="red">Testing is possible.</mark></li>
+                    </ul>
+
+                     <h3 class="pimp">React</h3>
+
+                    <ul style="list-style-type: disc">
+                        <li>Create <mark class="blue">React App CLI is less powerful.</mark></li>
+                        <li> <mark class="blue">Uses WebPack.</mark></li>
+                        <li> <mark class="blue">Dev Server to auto-reload.</mark></li>
+                        <li> <mark class="blue">CLI comes with Compiling & Build tools.</mark></li>
+                        <li> <mark class="blue">Jest Testing.</mark></li>
+                    </ul>
+
+                    <h2>5. Ecosystem  </h2>
+                    <hr>
+                    <h3>Angular</h3>
+
+                    <ul style="list-style-type: disc">
+                        <li><mark class="red">Ionic hybrid framework</mark> which is an angular app that runs in a native wrapper for <mark class="red">mobile
+                            apps.</mark>
+                        </li>
+                        <li> Nativescript for developing mobile apps</li>
+                        <li>Has <mark class="red">material design components</mark>library</li>
+                    </ul>
+
+                     <h3 class="pimp">React</h3>
+
+                    <ul style="list-style-type: disc">
+                        <li><mark class="blue">React Native which is the better way to build native mobile apps.</mark></li>
+                        <li><mark class="blue">Material UI</mark> for material design</li>
+                        <li>NextJS for <mark class="blue">rendering server-side react applications</mark> in an easy way.</li>
+                    </ul>
+                </div>
+                <div class="card__footer">
+                    <div class="author"> Published : 7/7/17</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<footer>
+    <p class="vanish">
+        <mark>
+            " Hi there!I am a highly-motivated mobile and web developer with an acquired taste for
+            elegant design. <br>I occasionally write about my experiences as a developer and other random musings."</mark>
+          
+    </p>
+    <p>
+        Handcrafted with ❤ by <a href="https://www.kelvinkamau.app" target="_blank"> Kelvin Kamau</a>
+    </p>
+</footer>
+<!-- *********************************************
+
+    __  __     ______     __         __   __   __     __   __        __  __     ______     __    __     ______     __  __
+   /\ \/ /    /\  ___\   /\ \       /\ \ / /  /\ \   /\ "-.\ \      /\ \/ /    /\  __ \   /\ "-./  \   /\  __ \   /\ \/\ \
+   \ \  _"-.  \ \  __\   \ \ \____  \ \ \'/   \ \ \  \ \ \-.  \     \ \  _"-.  \ \  __ \  \ \ \-./\ \  \ \  __ \  \ \ \_\ \
+    \ \_\ \_\  \ \_____\  \ \_____\  \ \__|    \ \_\  \ \_\\"\_\     \ \_\ \_\  \ \_\ \_\  \ \_\ \ \_\  \ \_\ \_\  \ \_____\
+     \/_/\/_/   \/_____/   \/_____/   \/_/      \/_/   \/_/ \/_/      \/_/\/_/   \/_/\/_/   \/_/  \/_/   \/_/\/_/   \/_____/
+
+    Hey there buddy,
+    Lookin' at my source code, huh?
+    Be sure to drop me an email at chat@kelvinkamau.app!
+    I'd love to chat sometime,
+    whether it's about code, community, or anything in between.
+
+    >> Kelvin Kamau
+    >> Software Engineer // Nairobi, Kenya
+
+    ********************************************** -->
+<script>
+    setTimeout(function () {
+        document.querySelector('.wambui').innerHTML = '• No more articles •';
+    }, 10000);
+
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/blog/sw.js')
+                    .then(function () {
+                        console.log("Service Worker Registered");
+                    });
+            }
+        );
+    }
+</script>
+</body>
+</html>
