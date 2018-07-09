@@ -237,7 +237,7 @@ footer p a {
 }
 
 .alpha {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .alpha p {
@@ -249,4 +249,8 @@ footer p a {
 
 .code {
     font-family: 'Courier New', monospace;
+}
+.beta{
+    font-size: 10px!important;
+    padding-left: 2px;
 }
