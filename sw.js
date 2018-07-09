@@ -29,6 +29,8 @@ self.addEventListener('fetch', function (event) {
                             'blog/sw.js',
                             'posts/one.html',
                             'posts/two.html',
+                            'posts/three.html',
+                            'posts/four.html',
                             'css/one.css',
                             'https://www.google-analytics.com/analytics.js',
                             'https://fonts.googleapis.com/css?family=Source+Sans+Pro',
