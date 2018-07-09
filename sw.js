@@ -1,5 +1,5 @@
 var consoleMessages = ["Hey hey there! :)", "👀 I 👀 see 👀 you 👀", "Hope you're having a great day 😊", "How do you comfort a JavaScript bug? You console it 😎"],
-consoleMessage = consoleMessages[Math.floor(Math.random() * consoleMessages.length)];
+    consoleMessage = consoleMessages[Math.floor(Math.random() * consoleMessages.length)];
 console.log(consoleMessage);
 self.addEventListener('fetch', function (event) {
     event.respondWith(caches.open('cache').then(function (cache) {
@@ -22,19 +22,20 @@ self.addEventListener('fetch', function (event) {
                             'blog/index.html',
                             'blog/index.html?homescreen=1',
                             '/?homescreen=1',
-                            'blog/css/app.css',
-                            'blog/images/one.svg',
-                            'blog/images/two.svg',
-                            'blog/favicon.png',
-                            'blog/manifest.json',
-                            'blog/package.json',
-                            'blog/package-lock.json',
-                            'blog/sw.js',
+                            'css/app.css',
+                            'css/one.css',
+                            'images/one.svg',
+                            'images/two.svg',
+                            'favicon.png',
+                            'manifest.json',
+                            'package.json',
+                            'package-lock.json',
+                            'sw.js',
                             'posts/one.html',
                             'posts/two.html',
                             'posts/three.html',
                             'posts/four.html',
-                            'css/one.css',
+                            'posts/five.html',
                             'https://www.google-analytics.com/analytics.js',
                             'https://fonts.googleapis.com/css?family=Source+Sans+Pro',
                             'https://use.fontawesome.com/releases/v5.1.0/css/all.css'
