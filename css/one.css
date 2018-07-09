@@ -27,6 +27,7 @@ body {
     background: #f4f8fb;
     font-family: 'Source Sans Pro', sans-serif
 }
+
 a {
     display: inline-block;
     color: inherit;
@@ -46,32 +47,45 @@ h4,
 h5 {
     margin: 0;
 }
-h2{
+
+h2 {
     color: #F2854D;
 }
-h3{
+
+h3 {
     color: red;
 }
-.red{
+
+.red {
     background: #F2854D;
 }
+
 img {
     width: 100%;
     max-width: 100%;
     vertical-align: middle;
 }
-.pimp{
+
+.pimp {
     color: dodgerblue;
 }
-.blue{
+
+.blue {
     background: dodgerblue;
 }
+
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 2em;
     padding: 0 5%;
-    margin-top: -70px;
+    margin-top: -110px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-top: -70px;
+    }
 }
 
 .container .card {
@@ -111,10 +125,12 @@ img {
     margin: 0 0 0.5em;
     font-size: 20px;
 }
-.container .card__description{
+
+.container .card__description {
     font-weight: 500;
     font-size: 16px;
 }
+
 .container .card__description p {
     color: #15171a;
     line-height: 1.7;
@@ -216,20 +232,6 @@ footer p a {
     font-size: 14px;
     text-align: center;
 }
-/*button{
-    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
-    border-radius: 5px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12px;
-    background-color: #ffffff;
-    margin: 0 auto;
-    padding: 8px 16px;
-    display:block;
+.code{
+    font-family: 'Courier New', monospace;
 }
-button:hover {
-    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-    transition: all 0.3s ease;
-    transform: translate3D(0, -1px, 0);
-    background-color: #000000;
-    color: #ffffff;
-}*/

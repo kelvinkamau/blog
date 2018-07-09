@@ -72,7 +72,13 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 2em;
     padding: 0 5%;
-    margin-top: -70px;
+    margin-top: -110px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-top: -70px;
+    }
 }
 
 .container .card {
@@ -145,8 +151,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    height: 40vh;
-    min-height: 370px;
+    height: 20vh;
+    min-height: 400px;
 }
 
 header h1 {
@@ -156,7 +162,6 @@ header h1 {
 }
 
 header h2 {
-    color: #ddd;
     font-weight: 400;
     letter-spacing: 6px;
     text-transform: uppercase;
