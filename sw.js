@@ -1,3 +1,6 @@
+var consoleMessages = ["Hey hey there! :)", "👀 I 👀 see 👀 you 👀", "Hope you're having a great day 😊", "How do you comfort a JavaScript bug? You console it 😎"],
+consoleMessage = consoleMessages[Math.floor(Math.random() * consoleMessages.length)];
+console.log(consoleMessage);
 self.addEventListener('fetch', function (event) {
     event.respondWith(caches.open('cache').then(function (cache) {
         return cache.match(event.request).then(function (response) {
