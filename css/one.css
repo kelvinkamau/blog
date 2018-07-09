@@ -98,6 +98,9 @@ img {
         width: 90%;
         padding: 30px 60px 0px 60px;
     }
+    .new{
+        font-size: 35px!important;
+    }
 }
 
 .container .card {
@@ -234,6 +237,7 @@ footer p a {
     body {
         background: #E8E8E8;
     }
+
 }
 
 .alpha {
@@ -253,4 +257,7 @@ footer p a {
 .beta{
     font-size: 10px!important;
     padding-left: 2px;
+}
+.new{
+    font-size: 27px;
 }
