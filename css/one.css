@@ -294,3 +294,6 @@ hr {
     height: 1px;
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
 }
+.ruins li {
+    line-height: 2;
+}
