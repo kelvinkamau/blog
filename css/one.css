@@ -56,7 +56,7 @@ h3 {
 .red {
     background: #F2854D;
 }
-ul{
+ul {
     line-height: 1.5;
 }
 
@@ -89,7 +89,14 @@ img {
     .container .card__description {
         font-size: 15px!important;
     }
-
+    ul, li{
+        margin: 0;
+        padding: 0;
+        list-style-position:inside;
+    }
+    h3{
+        line-height: 1.5;
+    }
 }
 
 @media only screen and (min-width: 600px) {
