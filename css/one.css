@@ -48,16 +48,16 @@ h5 {
     margin: 0;
 }
 
-h2 {
-    color: #F2854D;
-}
 
 h3 {
-    color: red;
+    color: #738a94;
 }
 
 .red {
     background: #F2854D;
+}
+ul{
+    line-height: 1.5;
 }
 
 img {
@@ -86,12 +86,25 @@ img {
     .container {
         margin-top: -70px;
     }
+    .container .card__description {
+        font-size: 15px!important;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .container .card {
+        margin-left: 5%;
+        width: 90%;
+        padding: 30px 60px 0px 60px;
+    }
 }
 
 .container .card {
     background: #fff 50%;
     background-size: cover;
     border-radius: 5px;
+
     box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
     transition: all 0.5s ease;
 }
@@ -128,7 +141,7 @@ img {
 
 .container .card__description {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .container .card__description p {
@@ -163,6 +176,7 @@ header h1 {
     margin-bottom: 20px;
     font-size: 50px;
     color: #fff;
+    line-height: 0.5;
 }
 
 header h2 {
@@ -232,6 +246,7 @@ footer p a {
     font-size: 14px;
     text-align: center;
 }
-.code{
+
+.code {
     font-family: 'Courier New', monospace;
 }

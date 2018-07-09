@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Java vs JavaScript</title>
+    <link rel="icon" type="image/png" href="../favicon.png" hreflang="en-us">
+    <link rel="stylesheet" href="../css/one.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-89234800-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+<header>
+    <h1>Kelvin Kamau</h1>
+    <h2>programming</h2>
+</header>
+
+<section>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <div class="card__title">
+                    <span>LANGUAGES</span>
+                    <h1>Java vs JavaScript</h1>
+                </div>
+                <div class="card__description">
+                    <p>Quick reference of the syntactic and semantic differences between Java and JavaScript.</p>
+
+                    <h2>Type</h2>
+                    <hr>
+
+                    <h3>Java: Static Type</h3>
+                    <p>Variables are associated with a type:</p>
+                    <p class="code">String name = "Firebase";<br>
+                        name = 3; // ERROR
+                    </p>
+
+                    <h3 class="pimp">JavaScript: Dynamic Type</h3>
+                    <p>Variables are not associated with a type:</p>
+                    <p class="code">var name = "Firebase";<br>
+                        name = 3; // OK
+                    </p>
+
+                    <h2>Constants</h2>
+                    <hr>
+
+                    <h3>Java:</h3>
+                    <p class="code">final x = 42;<br>
+                        x = 1024; // ERROR</p>
+
+                    <h3 class="pimp">JavaScript:</h3>
+                    <p class="code">const x = 42;<br>
+                        x = 1024 // ERROR</p>
+
+
+                    <h2>Semicolons at the end of statements?</h2>
+                    <hr>
+
+
+                    <h3>Java: Semicolons at the end of statements</h3>
+                    <p class="code">int x = 42;</p>
+
+                    <h3 class="pimp">JavaScript: Optional semicolons</h3>
+                    <p class="code">var x = 42 // OK<br>
+                        var y = 1024; // Also OK</p>
+
+                    <h2>Logging to the console/debug area</h2>
+                    <hr>
+                    <h3>Java:</h3>
+                    <p class="code">
+                        System.out.println("Message");<br>
+                        // Android-specific<br>
+                        Log.d(TAG, "Message");
+                    </p>
+
+                    <h3 class="pimp">JavaScript:</h3>
+                    <p class="code">console.log("Message");</p>
+
+                    <h2>Typesafe Equality </h2>
+                    <hr>
+                    <h3>Java:</h3>
+                    <p class="code">==</p>
+                    <p>for primitives</p>
+                    <p class="code"> .equals()</p>
+                    <p>for objects</p>
+
+                    <h3 class="pimp">JavaScript:</h3>
+                    <p class="code">===</p>
+                    <p>for strict equality</p>
+
+                    <h2>Pushing values to arrays </h2>
+                    <hr>
+                    <h3>Java:</h3>
+                    <p class="code">ArrayList arrayList = new ArrayList<>();<br>
+                        arrayList.add(10);</p>
+
+                    <h3 class="pimp">JavaScript:</h3>
+                    <p class="code">
+                        var array = [];<br>
+                        array.push(10);
+                    </p>
+
+                    <h2>Method/Function syntax </h2>
+                    <hr>
+                    <h3>Java: Method Declaration</h3>
+                    <p class="code">public int multiply(int a, int b) {<br>
+                        &nbsp; return a * b;<br>
+                        }</p>
+
+                    <h3 class="pimp">JavaScript: Function Declaration</h3>
+                    <p class="code">
+                        function multiply(a, b) {<br>
+                        return a * b;<br>
+                        }</p>
+
+                    <p> or, function expression:
+                        // Variable assignment</p>
+                    <p class="code"> var multiply = function(a, b) {<br>
+                        return a b;<br>
+                        }
+                    </p>
+
+                    <p> or, arrow function
+                        // New in ES2016; drops "function" keyword</p>
+                    <p class="code"> var multiply = (a ,b) => {<br>
+                        return a b;<br>
+                        }
+                    </p>
+
+                    <h2>Strings </h2>
+                    <hr>
+                    <h3>Java : Only double quotes represent strings</h3>
+                    <p class="code">String name = "Firebase";</p>
+                    <h3 class="pimp">JavaScript : Double and single quotes represent strings</h3>
+                    <p class="code">
+                        var str1 = "this is a valid string";<br>
+                        var str2 = 'and this is too';</p>
+                    <p>String interpolation with backtick quotes and</p>
+                    <p class="code"> ${}<br>
+                        var name = 'puf';<br>
+                        var message = `Hello ${name}!`; // Hello puf! </p>
+
+                    <h2>Loops</h2>
+                    <hr>
+                    <h3>Java:</h3>
+                    <h3 class="pimp">JavaScript:</h3>
+
+                    <h2>Importing a library </h2>
+                    <hr>
+                    <h3>Java:</h3>
+                    <p class="code">import java.util.ArrayList;</p>
+                    <h3 class="pimp">JavaScript:</h3>
+                    <p>Use
+                    <p class="code">require ()</p>
+                    <p> // and assign the result to a variable for later use:</p>
+                    <p class="code"> var child_process = require(’child_process’);</p>
+
+                </div>
+                <div class="card__footer">
+                    <div class="author"> Published : 7/7/17</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <p class="vanish">
+        <mark>
+            " Hi there!I am a highly-motivated mobile and web developer with an acquired taste for
+            elegant design. <br>I occasionally write about my experiences as a developer and other random musings."
+        </mark>
+
+    </p>
+    <p>
+        Handcrafted with ❤ by <a href="https://www.kelvinkamau.app" target="_blank"> Kelvin Kamau</a>
+    </p>
+</footer>
+<!-- *********************************************
+
+    __  __     ______     __         __   __   __     __   __        __  __     ______     __    __     ______     __  __
+   /\ \/ /    /\  ___\   /\ \       /\ \ / /  /\ \   /\ "-.\ \      /\ \/ /    /\  __ \   /\ "-./  \   /\  __ \   /\ \/\ \
+   \ \  _"-.  \ \  __\   \ \ \____  \ \ \'/   \ \ \  \ \ \-.  \     \ \  _"-.  \ \  __ \  \ \ \-./\ \  \ \  __ \  \ \ \_\ \
+    \ \_\ \_\  \ \_____\  \ \_____\  \ \__|    \ \_\  \ \_\\"\_\     \ \_\ \_\  \ \_\ \_\  \ \_\ \ \_\  \ \_\ \_\  \ \_____\
+     \/_/\/_/   \/_____/   \/_____/   \/_/      \/_/   \/_/ \/_/      \/_/\/_/   \/_/\/_/   \/_/  \/_/   \/_/\/_/   \/_____/
+
+    Hey there buddy,
+    Lookin' at my source code, huh?
+    Be sure to drop me an email at chat@kelvinkamau.app!
+    I'd love to chat sometime,
+    whether it's about code, community, or anything in between.
+
+    >> Kelvin Kamau
+    >> Software Engineer // Nairobi, Kenya
+
+    ********************************************** -->
+<script>
+    setTimeout(function () {
+        document.querySelector('.wambui').innerHTML = '• No more articles •';
+    }, 10000);
+
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/blog/sw.js')
+                    .then(function () {
+                        console.log("Service Worker Registered");
+                    });
+            }
+        );
+    }
+</script>
+</body>
+</html>
