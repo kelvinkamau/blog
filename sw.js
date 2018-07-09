@@ -28,6 +28,7 @@ self.addEventListener('fetch', function (event) {
                             'blog/package-lock.json',
                             'blog/sw.js',
                             'posts/one.html',
+                            'posts/two.html',
                             'css/one.css',
                             'https://www.google-analytics.com/analytics.js',
                             'https://fonts.googleapis.com/css?family=Source+Sans+Pro',
