@@ -285,9 +285,12 @@ footer p a {
     font-size: 10px !important;
 }
 
-.new {
+.new, .new a {
     font-size: 27px;
+    display: inline-block !important;
+    color: #000;
 }
+
 
 hr {
     border: 0;
