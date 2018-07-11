@@ -109,7 +109,7 @@ img {
     .container .card {
         margin-left: 5%;
         width: 90%;
-        padding: 30px 60px 0px 60px;
+        padding: 30px 60px 0 60px;
     }
 
     .new {
@@ -195,7 +195,6 @@ header h1 {
 }
 
 header h2 {
-    color: #ddd;
     font-weight: 400;
     letter-spacing: 6px;
     text-transform: uppercase;
@@ -207,23 +206,8 @@ footer {
     padding: 5% 10%;
     margin-top: 30px;
     text-align: center;
-    background: url('../images/two.svg');
-    background-repeat: no-repeat;
+    background: url('../images/two.svg') no-repeat;
     background-size: cover;
-
-    /**
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 5% 10%;
-    background: url('../images/one.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    height: 40vh;
-    min-height: 370px;
-     */
 }
 
 footer p {
@@ -302,4 +286,15 @@ hr {
 }
 .ctr{
     text-align: center;
+}
+.btn-nxt{
+    background: #fff 50%;
+    padding: 12px 12px;
+    border-radius: 12px;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+    transition: all 0.5s ease;
+}
+.btn-nxt:hover{
+    background: #000 50%;
+    color: white;
 }
