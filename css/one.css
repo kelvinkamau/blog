@@ -300,7 +300,7 @@ hr {
 }
 .nxt{
     position: absolute;
-    right: 47%;
+    right: 42%;
     color: #fff;
     background: #F59B46 50%;
 }
@@ -308,16 +308,21 @@ hr {
     background: #E82C69 50%;
     position: relative;
     color: #fff;
-    left: 47%;
+    left: 42%;
 }
-@media only screen and (max-width: 600px) {
-    .btn {
-
-    }
+@media (min-width: 600px) and (max-width: 780px) {
     .nxt{
-        right: 40%;
+        right: 43%;
     }
     .bck{
-        left: 40%;
+        left: 43%;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+    .nxt{
+        right: 38%;
+    }
+    .bck{
+        left: 38%;
     }
 }
