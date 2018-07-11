@@ -306,7 +306,18 @@ hr {
 }
 .bck{
     background: #E82C69 50%;
-    position: absolute;
+    position: relative;
     color: #fff;
     left: 47%;
+}
+@media only screen and (max-width: 600px) {
+    .btn {
+
+    }
+    .nxt{
+        right: 40%;
+    }
+    .bck{
+        left: 40%;
+    }
 }
