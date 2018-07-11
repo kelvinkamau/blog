@@ -287,14 +287,26 @@ hr {
 .ctr{
     text-align: center;
 }
-.btn-nxt{
-    background: #fff 50%;
-    padding: 12px 12px;
-    border-radius: 12px;
+.btn {
+    padding: 8px 11px;
+    border-radius: 20px;
     box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
     transition: all 0.5s ease;
+    margin-top: 20px;
 }
-.btn-nxt:hover{
-    background: #000 50%;
-    color: white;
+.btn:hover{
+    color: #000;
+    background: #fff 50%;
+}
+.nxt{
+    position: absolute;
+    right: 47%;
+    color: #fff;
+    background: #F59B46 50%;
+}
+.bck{
+    background: #E82C69 50%;
+    position: absolute;
+    color: #fff;
+    left: 47%;
 }
