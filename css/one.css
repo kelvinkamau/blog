@@ -300,7 +300,6 @@ hr {
 }
 .nxt{
     position: absolute;
-    right: 42%;
     color: #fff;
     background: #F59B46 50%;
 }
@@ -308,17 +307,34 @@ hr {
     background: #E82C69 50%;
     position: relative;
     color: #fff;
-    left: 42%;
 }
-@media (min-width: 600px) and (max-width: 780px) {
+@media (min-width: 1280px) {
     .nxt{
-        right: 43%;
+        right: 46%
     }
     .bck{
-        left: 43%;
+        left: 46%
     }
 }
-@media (min-width: 320px) and (max-width: 600px) {
+@media (max-width: 1024px) {
+    .nxt{
+        right: 47%;
+    }
+    .bck{
+        left: 47%
+    }
+}
+
+@media (max-width: 800px) {
+    .nxt{
+        right: 46%;
+    }
+    .bck{
+        left: 46%;
+    }
+}
+
+@media (max-width: 640px) {
     .nxt{
         right: 38%;
     }
