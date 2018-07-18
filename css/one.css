@@ -293,15 +293,16 @@ hr {
     margin-top: 20px;
 }
 .home{
-    padding: 8px 11px;
+    padding: 8px 9px;
+    color: #fff;
     position: relative;
     border-radius: 20px;
     background: #ff5330;
     box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
 }
 .home:hover{
-    background-color: #FF0070;
-    color: white;
+    background-color: #000;
+    color: #fff;
 }
 .btn:hover{
     color: #000;
@@ -319,13 +320,13 @@ hr {
 }
 @media (min-width: 1280px) {
     .nxt{
-        right: 46%
+        right: 45.5%
     }
     .bck{
-        left: 46%
+        left: 45%
     }
     .home{
-        left: 46.8%;
+        left: 45.4%;
     }
 }
 @media (max-width: 1024px) {
