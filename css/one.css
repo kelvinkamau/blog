@@ -274,8 +274,6 @@ footer p a {
     display: inline-block !important;
     color: #000;
 }
-
-
 hr {
     border: 0;
     height: 1px;
@@ -293,6 +291,17 @@ hr {
     box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
     transition: all 0.5s ease;
     margin-top: 20px;
+}
+.home{
+    padding: 8px 11px;
+    position: relative;
+    border-radius: 20px;
+    background: #ff5330;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+}
+.home:hover{
+    background-color: #FF0070;
+    color: white;
 }
 .btn:hover{
     color: #000;
@@ -315,19 +324,28 @@ hr {
     .bck{
         left: 46%
     }
+    .home{
+        left: 46.8%;
+    }
 }
 @media (max-width: 1024px) {
     .nxt{
-        right: 47%;
+        right: 44%;
+    }
+    .home{
+        left: 45%;
     }
     .bck{
-        left: 47%
+        left: 44%
     }
 }
 
 @media (max-width: 800px) {
     .nxt{
         right: 46%;
+    }
+    .home{
+        left: 50%;
     }
     .bck{
         left: 46%;
@@ -336,9 +354,23 @@ hr {
 
 @media (max-width: 640px) {
     .nxt{
-        right: 38%;
+        right: 40%;
+    }
+    .home{
+        left: 44%;
     }
     .bck{
-        left: 38%;
+        left: 40%;
+    }
+}
+@media (max-width: 414px) {
+    .nxt{
+        right: 37%;
+    }
+    .home{
+        left: 40%;
+    }
+    .bck{
+        left: 37%;
     }
 }
