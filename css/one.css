@@ -366,12 +366,15 @@ hr {
 }
 @media (max-width: 414px) {
     .nxt{
-        right: 37%;
+        margin-right: -45px;
     }
     .home{
-        left: 40%;
+        position: absolute;
+        left: 50%;
+        margin-top: 20px;
     }
     .bck{
-        left: 37%;
+        position: absolute;
+        margin-left: -10px;
     }
 }
