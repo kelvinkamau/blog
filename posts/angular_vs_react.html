@@ -293,20 +293,5 @@
     >> Software Engineer // Nairobi, Kenya
 
     ********************************************** -->
-<script>
-    setTimeout(function () {
-        document.querySelector('.wambui').innerHTML = '• No more articles •';
-    }, 10000);
-
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-                navigator.serviceWorker.register('/blog/sw.js')
-                    .then(function () {
-                        console.log("Service Worker Registered");
-                    });
-            }
-        );
-    }
-</script>
 </body>
 </html>
