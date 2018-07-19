@@ -1,21 +1,21 @@
 {
-  "name": "writing",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "writing portfolio for ENGW 3302",
+  "description": "My Official Online Blog",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kelvinkamau/writing.git"
+    "url": "git+https://github.com/kelvinkamau/blog.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kelvinkamau/writing/issues"
+    "url": "https://github.com/kelvinkamau/blog/issues"
   },
-  "homepage": "https://github.com/kelvinkamau/writing#readme",
+  "homepage": "https://github.com/kelvinkamau/blog#readme",
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.23.6",
