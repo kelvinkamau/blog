@@ -364,7 +364,11 @@ hr {
         left: 40%;
     }
 }
+
 @media (max-width: 414px) {
+ footer{
+     margin-top: 50px;
+ }
     .nxt{
         margin-right: -45px;
     }
