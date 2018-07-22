@@ -3,11 +3,11 @@
 ## Dependencies
 * [Gulp](https://gulpjs.com)
 
-## Usage
+## To use this project
 * Run ```npm install --save-dev gulp-install```
 
-#### Development
+#### For development
 * Run ```gulp serve```
 
-#### Production
+#### For production
 * Run ```gulp build```
