@@ -171,9 +171,8 @@ header h2 {
 footer {
     color: #191e27;
     padding: 5% 10%;
-    margin-top: 30px;
     text-align: center;
-    background: url('../images/two.svg') no-repeat;
+    background: url('../images/footer.svg') no-repeat;
     background-size: cover;
 }
 
