@@ -2655,8 +2655,6 @@
   animation-name: hinge;
 }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
 @-webkit-keyframes rollIn {
   0% {
     opacity: 0;
@@ -2691,8 +2689,6 @@
   -webkit-animation-name: rollIn;
   animation-name: rollIn;
 }
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 @-webkit-keyframes rollOut {
   0% {
